@@ -19,3 +19,4 @@ npm run dev
 - `chess.js` for move validation
 - AI opponent using `stockfish.js`
 - Moves are made by dragging pieces and the engine replies automatically
+- Includes the Cburnett piece set from Chessground for a classic look
