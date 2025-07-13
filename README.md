@@ -1,6 +1,7 @@
-# Phaser Chess
+# Chess Online
 
-This project is a minimal chess implementation using Vue 3 and Phaser 3.
+This project provides a basic chess board using Vue 3 with the Chessground UI.
+Game rules are handled by `chess.js` and a simple AI is powered by `stockfish.js`.
 
 ## Development
 
@@ -14,7 +15,7 @@ npm run dev
 
 ## Features
 
-- 8x8 chess board with alternating colors
-- Text based chess pieces with basic movement rules
-- Click to select a piece and click destination square to move
-- Simple fade animation when capturing a piece
+- Chessground powered board with coordinates
+- `chess.js` for move validation
+- AI opponent using `stockfish.js`
+- Moves are made by dragging pieces and the engine replies automatically
