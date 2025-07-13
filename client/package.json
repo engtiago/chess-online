@@ -1,0 +1,21 @@
+{
+  "name": "phaser-chess",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "chess.js": "^1.4.0",
+    "chessground": "^8.4.0",
+    "phaser": "^3.70.0",
+    "stockfish": "^16.0.0",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.2",
+    "vite": "^5.0.0"
+  }
+}
